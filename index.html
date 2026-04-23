@@ -6,49 +6,53 @@
 	<link rel="stylesheet"   href="styles.css">
 </head>
 <body>
-	<header>Dilan chavez
+    <!-- Encabezado de la pagina web--> 
+	<header id="logo">Dilan chavez
 	 	<nav>
 			<ul>
 				<li><a href="#">inicio</a></li>
-				<li><a href="http://localhost:9898/Local/portafolio/mascotas.html?46F44189-B3C4-40ED-86EA-A1F83FC3F59A">mascotas</a></li>
+				<li><a href="mascotas.html">mascotas</a></li>
 				<li><a href="#">sobre mi</a></li>
 				<li><a href="#">proyectos</a></li>
 			</ul>
 		</nav>
 	</header>
+
     <main>
+        <!--secccion sobre mis informacion personal --> 
         <section class="yo">
-            <h2 class="yo">Sobre mi</h2>
+            <h2>Sobre mi</h2>
             <p>Mi nombre es dilan chavez tengo 17 años, nacido en la ciudad de barranquilla colombia, soy un joven que me gusta el deporte como lo es el voleyball, baloncesto y el gym, actualmente me encuentro en un centro de entranamiento para desarrolladores de software llamado Riwi, mi aspiracion es salir con un buen empleo para poder estudiar ig de sistemas en la universidad</p>
         </section>
-        
+
+        <!--Seccion sobre los proyectos en los que he participado o he hecho  --> 
         <section class="proyectos">
+            <label class="section-label"for="proyecto">Proyectos</label>
             <ul>
-                <li><a href="#" class="proye" > proyecto 1 </a></li>
-                <li><a href="#" class="proye" > proyecto 2</a></li>
-                <li><a href="#" class="proye" >Proyecto 3</a></li>
+                <li><a href="https://github.com/dilandcv/Performance_test.git" class="proye" > Sistema de Gestión de Estudiantes con Persistencia de Datos </a></li>
+                <li><a href="https://github.com/brayanlozada1102-collab/C3_Customer_Order_Management_System.git" class="proye" > sistema de gestion de ventas</a></li>
+                <li><a href="https://github.com/dilandcv/US_HTML.git" class="proye" > Portafolia acerca de mi</a></li>
             </ul>
         </section>
         
         <section class="contacto">
             <form>
-                <label for="name">Nombre:</label><br>
+                <label class="cnto" for="name">Nombre:</label>
                     <input type="text" id="name"></input>
                 </label><br>
                 
-                <label for="apellido">Apellido:</label><br>
+                <label class="cnto" for="apellido">Apellido:</label>
                     <input type="text" id="apellido"></input><br>
+
+                <label class="cnto" for="mail">Mail:</label>
+                    <input type="mail">
+
                 <input type="submit" value="enviar"></input>
             </form>
         </section>
     </main>
-
     <footer>
-    uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+        <p>Copyright © 2024 Gran Malecón de Barranquilla. Todos los derechos reservados.</p>
     </footer>
-	
-	
-	
-
 </body>
 </html>

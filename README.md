@@ -75,7 +75,7 @@ Campos incluidos:
 ## 🚀 Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
-2. git clone <url-del-repositorio>
+2. git clone https://github.com/dilandcv/US_HTML.git
 
 
 2. Abre el archivo:

@@ -4,19 +4,22 @@
   <meta charset="UTF-8">
   <title>Portafolio - Dilan Chávez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.min.css">
 </head>
 <body>
 
   <!-- ── ENCABEZADO ── -->
   <header>
     <span id="logo">Dilan Chávez</span>
-    <nav>
+    <button id="botton-menu" onclick="showMenu()">
+            ≡
+    </button>
+    <nav class="nav-menu">
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="mascotas.html">Mascotas</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#"><strong>Inicio</strong></a></li>
+        <li><a href="mascotas.html"><strong>Mascotas</strong></a></li>
+        <li><a href="#sobre-mi"><strong>obre mí</strong></a></li>
+        <li><a href="#proyectos"><strong>Proyectos</strong></a></li>
       </ul>
     </nav>
   </header>
@@ -56,21 +59,12 @@
 
     <!-- ── INTERACTIVIDAD JS ── -->
     <section class="js-zona" aria-label="Sección interactiva">
-      <h2>⚡ Interactividad</h2>
+      <h2>Interactividad</h2>
 
       <!-- Texto dinámico que cambia al hacer clic -->
       <p id="parrafo-dinamico">Hola, soy Dilan Chávez, tengo 17 años y soy apasionado por el desarrollo de software. Actualmente me formo en Riwi.</p>
-
-      <!-- Contenido que se muestra/oculta -->
-      <div id="contenido-oculto" role="region" aria-label="Habilidades">
-        🛠️ <strong>Mis habilidades:</strong> HTML, CSS, JavaScript, Python, Git, trabajo en equipo, resolución de problemas y muchas ganas de aprender.
-      </div>
-
-      <!-- Botones de interacción -->
-      <div class="btn-group">
-        <button class="btn" id="btn-cambiar-texto" type="button">Cambiar texto</button>
-        <button class="btn" id="btn-toggle" type="button">📂 Ver mis habilidades</button>
-      </div>
+      <button class="btn" id="btn-cambiar-texto" type="button">Cambiar texto</button>
+      
     </section>
 
     <!-- ── CONTACTO ── -->

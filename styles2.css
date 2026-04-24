@@ -76,7 +76,7 @@ main {
   max-width: 90%;
   margin: 0 auto;
   display: grid;
-  /i* Escrtorio: 3 columnas */
+  /* Escritorio: 3 columnas */
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
 }
